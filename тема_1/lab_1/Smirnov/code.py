@@ -11,4 +11,4 @@ def MEDIANA (data: list) -> float:
         return (sorted_values[mid - 1] + sorted_values[mid]) / 2
 
 nums = []
-print(MEDIANA(nums))  
+print(MEDIANA(data))  
